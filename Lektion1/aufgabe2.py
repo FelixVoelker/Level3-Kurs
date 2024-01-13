@@ -16,7 +16,7 @@
         text = "Ich bin ein String!"
 
     Dies ist eine Variablenzuweisung. Die Variable heißt text und
-    sie enthält einen String.
+    sie enthält einen **str**.
 """
 
 print("Willkommen im Kurs!")
@@ -32,7 +32,7 @@ print("Wie alt bist du?")
 # input kannst du den String auch als Parameter übergeben.
 hobby = input("Was ist dein Hobby?")
 
-# TODO Erstelle eine Variable note und verwende input(String) um noch etwas
+# TODO Erstelle eine Variable note und verwende input(**str**) um noch etwas
 # über dich der Gruppe mitzuteilen!
 
 # Jetzt stellen wir dich dem Kurs vor!

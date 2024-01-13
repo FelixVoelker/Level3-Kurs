@@ -19,7 +19,7 @@
         for index in range(5):
             print("Dies ist eine Zählschleife!")
 
-    In Python erwartet der in Operator eine Liste.
+    In Python erwartet der **in** Operator eine Liste.
     Die Anzahl der Elemente dieser Liste entscheidet
     wie viele Iterationen die Schleife macht!
 """
