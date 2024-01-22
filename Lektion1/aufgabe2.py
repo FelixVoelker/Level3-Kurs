@@ -26,7 +26,7 @@ print("Wie heißt du?")
 name = input()
 
 print("Wie alt bist du?")
-# TODO Lese jetzt dein Alter in die Variable age ein!
+# TODO Lese jetzt dein Alter in die Variable alter ein!
 
 # Wir können uns das print sparen!
 # input kannst du den String auch als Parameter übergeben.
@@ -37,5 +37,5 @@ hobby = input("Was ist dein Hobby?")
 
 # Jetzt stellen wir dich dem Kurs vor!
 # Diese Version von print setzt bei den Kommas ein Leerzeichen.
-print("Ich bin", name, "und", age, "Jahre alt!", "Mein Hobby ist", hobby, ".")
-print(note)
+print("Ich bin", name, "und", alter, "Jahre alt!", "Mein Hobby ist", hobby, ".")
+#print(note)

@@ -17,16 +17,16 @@
 """
 
 
-# TODO Stelle einen deiner Mitschüler in der Funktion **introduce** vor.
+# TODO Stelle einen deiner Mitschüler in der Funktion vorstellen vor.
 # Schreibe dazu den Namen und das Alter des Mitschülers ins Terminal.
 # Außerdem schreibe ins Terminal ob du älter bist oder jünger.
-def introduce():
+def vorstellen():
     pass
 
 
-introduce()
+vorstellen()
 
-# TODO Verändere **introduce** nun:
+# TODO Verändere vorstellen nun:
 #           - Übergib das Alter diesmal als Parameter
-#           - Lass die Funktionen einen **str** zurückgeben, 
+#           - Lass die Funktionen einen **str** zurückgeben,
 #             der alle oben genannten Informationen enthält

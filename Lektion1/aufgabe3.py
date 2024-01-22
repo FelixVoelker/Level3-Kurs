@@ -25,19 +25,19 @@
 """
 
 # Jetzt erstellen wir eine Liste mit den Namen deiner Mitschüler.
-students = []  # TODO Die Liste ist noch leer also fülle sie!
+teilnehmer = []  # TODO Die Liste ist noch leer also fülle sie!
 
 # Nutzen wir eine Zählschleife um deine Mitschüler im Terminal anzuzeigen.
 print("In deinem Kurs sind folgende Mitschüler:")
-for name in students:
+for name in teilnehmer:
     print(name)
 
 # So greifst du nur auf den ersten Namen deiner Liste zu.
-name = students[0]
+name = teilnehmer[0]
 # TODO Schreib den Namen ins Terminal!
 
 # Die Länge der Liste (Anzahl der Elemente) bekommst du so:
-count = len(students)
+anzahl = len(teilnehmer)
 # TODO Schreib die Länge der Liste ins Terminal!
 
 # Wie alt waren deine Mitschüler nochmal?

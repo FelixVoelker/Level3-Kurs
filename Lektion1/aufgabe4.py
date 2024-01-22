@@ -23,20 +23,20 @@
 
 # TODO Kopiere die Namen und das Alter deiner Mitschüler aus Aufgabe 3
 # in die entsprechende Liste.
-students = []
-ages = []
+teilnehmer_namen = []
+teilnehmer_alter = []
 
-age = input("Gib dein Alter ein: ")
+alter = input("Gib dein Alter ein: ")
 
-# Wir können age noch nicht vergleichen weil age ein **str** ist!
-# Aber wir können age in einen **int** umwandeln.
-age = int(age)
+# Wir können alter noch nicht vergleichen weil alter ein **str** ist!
+# Aber wir können alter in einen **int** umwandeln.
+alter = int(alter)
 
-for index in range(len(students)):
-    name = students[index]
-    if age < ages[index]:
+for index in range(len(teilnehmer_namen)):
+    name = teilnehmer_namen[index]
+    if alter < teilnehmer_alter[index]:
         print(name, "ist älter als du.")
-    elif age == ages[index]:
+    elif alter == teilnehmer_alter[index]:
         # TODO Gib im Terminal aus ob dieser Mitschüler jünger, älter oder
         # genauso alt ist wie du!
         pass
