@@ -10,15 +10,15 @@
 
     Ein Modul importierst du so:
 
-        import modulname
+        import modul
 
     Der Modulname ist identisch mit dem Dateinamen nur
     ohne die Dateiendung .py. Wir können diesen Namen dann
     in unserem Programm nutzen um auf die Variablen und
     Funktionen des Moduls zuzugreifen:
 
-        modulname.variablenname
-        modulname.funktionsname()
+        modul.variable
+        modul.funktion()
 
     Im Ordner dieser Lektion befindet sich die Datei minecraft.py.
     Wir wollen das Modul minecraft importieren und damit arbeiten!
@@ -35,8 +35,7 @@ print("Das Genre des Spiels ist", minecraft.genre)
 # Welche Variable haben wir noch nicht ins Terminal geschrieben?
 # Benutze print um diese Variable auch auszugeben!
 
-# So rufst du eine Funktion des Moduls auf.
-# minecraft.beschreiben()
+# TODO Das Modul minecraft enthält auch eine Funktion. Rufe sie auf!
 
-# TODO Erstelle nun dein eigenes Modul und importiere es!
+# TODO Erstelle nun ein anderes Spiel als Modul und importiere es!
 # Nimm dir dabei ein Beispiel an dem Modul minecraft.

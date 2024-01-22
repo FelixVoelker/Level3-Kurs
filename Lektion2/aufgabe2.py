@@ -1,4 +1,4 @@
-"""Aufgabe 2: Eingebaute Module
+""" Aufgabe 2: Eingebaute Module
 
     Python kommt mit vielen eingebauten Modulen. Wir können diese
     jederzeit zum programmieren nutzen! Hier ein paar Beispiele:
