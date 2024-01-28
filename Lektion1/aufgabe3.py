@@ -41,7 +41,7 @@ anzahl = len(teilnehmer)
 # TODO Schreib die Länge der Liste ins Terminal!
 
 # Wie alt waren deine Mitschüler nochmal?
-# TODO Erstelle eine Variable ages und speichere dort eine Liste.
+# TODO Erstelle eine Variable alter und speichere dort eine Liste.
 # Die Liste soll das Alter deiner Mitschüler enthalten. Reihenfolge beachten!
 
 # TODO Verändere nun die Zählschleife so, dass du den Namen und
