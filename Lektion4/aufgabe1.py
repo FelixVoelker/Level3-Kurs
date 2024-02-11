@@ -8,7 +8,7 @@
     Ein Syntaxfehler entsteht wenn beim Schreiben eines Befehls das Regelwerk
     der Programmiersprache verletzt wird. Falsch gesetzte Symbole, fehlende
     Klammern und Einrückungen sind Beispiele dafür. Solche Bugs werden
-    vom Compiler beim Übersetzen des Programms in Maschinensprache bereits
+    vom Interpreter beim Übersetzen des Programms in Maschinensprache bereits
     erkannt und markiert. Deshalb sind sie leicht zu korrigieren.
 
     Semantikfehler sind logische Fehler und bedeuten, dass unser Programm
@@ -19,21 +19,37 @@
 
     Semantische Bugs sind so schwer zu erkennen, dass ein ganzer Berufszweig
     sich nur damit beschäftigt zu überprüfen, ob ein Programm auch genau das
-    tut was es soll.
-
-    Es ist das Jahr 1996 und du bist Software Analyst der Europäischen
-    Weltraumorganisation (ESA). Kürzlich wurden Änderungen am Programm des
-    Bordcomputers der Ariane 5 Trägerrakete vorgenommen. Dein Job ist es das
-    Programm bis zum morgigen Start zu korrigieren.
+    tut was es soll. Es ist der 23.9.1999 und du bist Software Analyst
+    bei der NASA. Heute soll der Mars Climate Orbiter seine Umlaufbahn
+    ansteuern. Unterstützt wird die Sonde durch den Mars Polar Lander.
+    Deine Aufgabe ist es die Navigationssoftware zu überprüfen!
 """
 
+import time
+import mars_polar_lander as mpl
 
-# Wandelt eine ganze Zahl auf ihre 16-bit Representation um [-32768, 32767].
-def int16(zahl):
-    binaerzahl = bin(zahl)
-    if len(binaerzahl) >= 18:
-        binaerzahl = "-0b" + binaerzahl[-15:]
-    return int(binaerzahl, 2)
+# Die Sonde reist momentan mit 7,8 Kilometer pro Sekunde.
+geschwindigkeit = 7.8
 
+# Die Sonde fliegt solange die Umlaufbahn an bis die Entfernung 0 km beträgt.
+while mlp.entfernung > 0
+    print("Aktuelle Entfernung:", mpl.entfernung)
 
-print(int16(32769))
+    # Sobald die Sonde zu schnell ist, erzeugt das Triebwerk Gegenschub.
+    while mpl.entfernung < geschwindigkeit:
+    gegenschub = geschwindigkeit - mpl.entfernung
+        geschwindigkeit -= gegenschob
+
+    # Die Sonde pingt ihre aktuelle Geschwindigkeit an  den Mars Polar Lander.
+     mpl.ping(geschwindigkeit
+
+    # Die Navigationssoftware schläft für eine Sekunde.
+    time.sleep(1)
+
+print("Umlaufbahn erreicht!)
+
+# TODO Das Programm ist voller Syntaxfehler! Finde und korrigiere die Bugs.
+# Nutze dazu auch die Fehlermeldungen im Terminal.
+
+# TODO Der Mars Climate Orbiter hat seine Umlaufbahn verfehlt, wodurch es
+# zum Absturz der Sonde kam. Nutze den Debugger um herauszufinden warum!
