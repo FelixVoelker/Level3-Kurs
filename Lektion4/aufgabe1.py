@@ -36,7 +36,7 @@ while mlp.entfernung > 0
     print("Aktuelle Entfernung:", mpl.entfernung)
 
     # Sobald die Sonde zu schnell ist, erzeugt das Triebwerk Gegenschub.
-    while mpl.entfernung < geschwindigkeit:
+    while mpl,entfernung < geschwindigkeit:
     gegenschub = geschwindigkeit - mpl.entfernung
         geschwindigkeit -= gegenschob
 
