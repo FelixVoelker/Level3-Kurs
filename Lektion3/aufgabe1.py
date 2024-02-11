@@ -24,7 +24,7 @@
 
 from code_knacken import nachschlagewerk
 
-nachricht = "  qq61.q9.$P._qh@+9#x3.xq319pq.$Q_1yhpq9.1q+yq6l_@l6$!qqq "
+nachricht = "  qq61.q9.$P._qh@+9#x3.xq319pq.$Q_1yhpq9.1q+yq6l_@k6$!qqq "
 
 # Zuerst entfernen wir die Leerzeichen am Anfang und Ende des Strings.
 nachricht = nachricht.strip()
