@@ -2,7 +2,7 @@
 
     Semantikfehler können nicht nur unerwünschtes Verhalten auslösen,
     sondern auch große Schäden verursachen. Darunter Schäden am Computer,
-    finanzielle Verluste eines Unternehmens oder das Verletzen von Menschen.
+    finanzielle Verluste eines Unternehmens oder Verletzungen von Menschen.
 
     Um diese Probleme zu verhindern, kann die Ausführung eines Programms
     geplant oder ungeplant beendet werden. Man spricht auch von einem Absturz
@@ -15,8 +15,8 @@
     Wir können einen Teil unseres Programms auf Fehler testen, die einen
     Crash auslösen könnten. Dafür wird in den **try** Block das zu testende
     Segment geschrieben. Wenn der Code fehlerfrei durchläuft, verlässt der
-    Interpreter den Block. Tritt jedoch ein Fehler auf, springt der
-    Interpreter in den **except** Block. Dort können wir den Fehler beheben
+    Interpreter den Block. Tritt jedoch ein Fehler auf, springt er in
+    den **except** Block. Dort können wir den Fehler beheben
     oder das Programm sicher beenden:
 
         try:
@@ -30,20 +30,28 @@
     und sorgt nach 36,7 Sekunden dafür, dass die Rakete explodiert.
     Was ist passiert?
 """
-
+# 21:40-
 import time
 from cast_to_int import int16
 
 print("Ariane 5 - LIFT OFF")
 
 horizontale_geschwindkeit = 0.0
+
+# Simuliere den Flug über 40 Sekunden.
 for sekunde in range(40):
+
+    # Prüfe ob die Geschwindigkeit negativ ist, dann breche den Start ab.
     if int16(horizontale_geschwindkeit) < 0:
         print("Countdown abgebrochen! Neustarten...")
+        exit()
 
     print("Sekunde", sekunde, "aktuelle Geschwindigkeit:",
           horizontale_geschwindkeit)
+
+    # Die Ariane 5 beschleunigt um 910.22 Meter pro Sekunde.
     horizontale_geschwindkeit += 910.22
+
     time.sleep(1)
 
 # TODO Nach 36 Sekunden stürzt das Programm ab. Finde die problematische Zeile!
@@ -53,4 +61,7 @@ for sekunde in range(40):
 # schnell fliegen würde. Sichere die problematische Typumwandlung mithilfe von
 # **try** und **except** ab.
 
-# TODO Verwende **else** und **finally**
+# TODO Korrigiere nun die problematische Zeile und füge ein **else** hinter
+# den **except** Block ein, um zu testen ob dein Code fehlerfrei durchläuft.
+
+# TODO Ersetze das **else** durch ein **finally**. Was ändert sich dadurch?
