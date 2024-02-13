@@ -30,7 +30,7 @@
     und sorgt nach 36,7 Sekunden dafür, dass die Rakete explodiert.
     Was ist passiert?
 """
-# 21:40-
+
 import time
 from cast_to_int import int16
 
