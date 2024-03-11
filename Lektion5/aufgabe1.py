@@ -38,7 +38,7 @@
 
         1. Der Spieler soll mit einer Gruppe aus zwei Helden gegen ein
            gegnerisches Team antreten.
-        2. Jeder Held besitzt Lebenspunkte (LP), Angriffskraft (ATK) und
+        2. Jeder Held besitzt Lebenspunkte (LP), Angriffskraft (ATK),
            Verteidigungskraft (VRT) und Schaden (DMG).
         3. In jedem Zug darf jeder Held einmal entweder angreifen (attack)
            oder sich verteidigen (defend).
@@ -66,6 +66,6 @@
 
 # TODO Die Funktionen eines Objekts nennt man Methoden und der Held bekommt:
 #      -> attack: Greift den gewählten Helden an und reduziert
-#                 DMG des Angegriffenen um ATK
+#                 DMG des Angegriffenen um ATK.
 #      -> defend: Verteidigt sich gegen Angriffe anderer Helden
-#                 und addiert VRT auf DMG
+#                 und addiert VRT auf DMG.
