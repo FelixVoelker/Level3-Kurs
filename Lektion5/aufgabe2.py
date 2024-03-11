@@ -22,7 +22,7 @@
         class Restaurant(Gebäude):
             sitzplätze = 15
 
-    Ein Objekt vom Typ Restaurant ist durch die Vererbung auch vom Typ Gebäude.
+    Ein Objekt vom Typ Restaurant ist durch die Vererbung auch ein Gebäude.
     Es besitzt nicht nur die Variable sitzplätze sondern auch räume. Außerdem
     besitzt es die Methode putzen und kann diese aufrufen. Erhält unser
     Restaurant jedoch eine eigene Methode putzen, dann nutzt es nicht mehr die
@@ -33,7 +33,7 @@
     Fahren wir nun mit der Entwicklung des Spiels "Die Schlacht der vier
     Helden" fort:
 
-        1. Das Spiel soll vier Typen von Helden besitzen: Ritter, Jäger,
+        1. Das Spiel soll vier Rollen von Helden besitzen: Ritter, Jäger,
            Magier und Heiler.
         2. Der Ritter hat 5 VRT, der Jäger 4 ATK, der Magier 2 ATK und
            der Heiler 1 ATK.
@@ -53,3 +53,15 @@ from aufgabe1 import Held
 # TODO Nutze Polymorphie um die Methode attack vom Magier und Heiler
 # zu überschreiben. Der Magier greift die LP des Gegners direkt an und
 # der Heiler stellt LP wieder her sofern der Held weniger als 10 hat.
+
+# TODO Operatorüberladung ist eine Form von Polymorphie. Dabei wird der
+# Operator überschrieben und dessen Funktion für das Objekt geändert.
+# Verändere mit der magischen Funktion __lt__ den <-Operator:
+#   - Ritter: LP des Ritter kleiner als ATK eines Helden
+#   - Jäger: LP eines Helden kleiner als ATK des Jäger
+#   - Magier: ATK des Magiers kleiner als VRT eines Helden
+#   - Heiler: LP eines Helden plus ATK des Heiler kleiner als 10
+
+# TODO BONUS: Denke dir jetzt eine eigene Rolle Held aus!
+# Wähle deine eignen Werte und nutze Polymorphie um attack und
+# defend sowohl den <-Operator zu überschreiben.
