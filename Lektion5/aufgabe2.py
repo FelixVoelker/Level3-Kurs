@@ -30,8 +30,8 @@
     dann von einem Polymorphismus (Vielgestaltigkeit) und meint damit, dass
     Methoden den gleichen Namen aber unterschiedliche Funktion besitzen dürfen.
 
-    Fahren wir nun mit der Entwicklung des Spiels "Die Schlacht der vier
-    Helden" fort:
+    Fahren wir mit der Entwicklung des Spiels "Die Schlacht der vier Helden"
+    fort:
 
         1. Das Spiel soll vier Rollen von Helden besitzen: Ritter, Jäger,
            Magier und Heiler.
