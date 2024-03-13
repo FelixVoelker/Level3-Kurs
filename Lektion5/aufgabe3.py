@@ -28,7 +28,9 @@
            und die Runde endet sobald alle Helden einmal am Zug waren.
         3. Ein Held kann in seinem Zug entweder angreifen oder
            sich verteidigen. Sobald er 0 LP hat, kommt er nicht mehr zum Zug.
-        4. Das Spiel endet sobald alle Helden eines Teams besiegt wurden.
+        4. Bei Rundenende nehmen alle Helden Schaden mit negativen DMG.
+           Ihre LP reduzieren sich um den DMG Wert.
+        5. Das Spiel endet sobald alle Helden eines Teams besiegt wurden.
 """
 
 from aufgabe2 import Ritter, Jaeger, Magier, Heiler
