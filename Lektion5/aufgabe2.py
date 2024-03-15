@@ -47,8 +47,9 @@ from aufgabe1 import Held
 # TODO Erstelle die Klassen Ritter, Jaeger, Magier und Heiler.
 # Lasse sie von der Klasse Held erben.
 
-# TODO Überschreibe den Konstruktur der Kinderklassen und nutze
-# die magische Funktion __super__ um deren Werte anzupassen.
+# TODO Überschreibe den Konstruktur der Kinderklassen um deren Werte anzupassen
+# und nutze dabei die Funktion super um die Variablen und Methoden
+# der Elternklasse zu erben.
 
 # TODO Nutze Polymorphie um die Methode attack vom Magier und Heiler
 # zu überschreiben. Der Magier greift die LP des Gegners direkt an und
