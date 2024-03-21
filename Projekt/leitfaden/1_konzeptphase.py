@@ -10,8 +10,8 @@
     werden. Agile Softwareentwickler nennen eine Anforderung deswegen
     auch Story. Hier ein Beispiel für ein Rennspiel:
 
-    1. Der Spieler steuert ein Auto auf einer 3-spurigen Straße,
-       das immer geradeaus fährt.
+    1. Der Spieler steuert ein Auto auf einer 3-spurigen Straße.
+       Dieses fährt immer geradeaus.
     2. Der Spieler muss anderen Autos auf der Fahrbahn ausweichen,
        da das Auto schneller fährt als andere Fahrzeuge.
     3. Wenn der Spieler die Pfeiltaste nach links drückt, dann wechselt
@@ -34,5 +34,8 @@
 # Beende das Spiel durch das Schließen des Fensters.
 
 # TODO Zeichne ein prototypisches Level deines Spiels.
-# Färbe dafür die Pixel des Bildschirms mithilfe von RGB-Werten 
+# Färbe dafür die Pixel des Bildschirms mithilfe von RGB-Werten
 # (Rot-Grün-Blau) ein.
+
+# TODO Versuche die Zeichnung deines Levels pro Frame zu ändern und damit
+# eine Animation zu erzeugen!
